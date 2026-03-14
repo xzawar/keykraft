@@ -5,9 +5,6 @@
    =================================== */
 
 /* ── Active nav link ── */
-nav ul li a.active-nav {
-    color: var(--primary);
-}
 nav ul li a.active-nav::after {
     width: 100%;
 }
