@@ -599,12 +599,12 @@
     </section>
 
     <!-- Footer -->
-    <footer style="background: linear-gradient(135deg, var(--dark) 0%, #1a2236 100%); color: white; padding: 80px 0 40px;">
+    <footer style="background: var(--dark); color: white; padding: 80px 0 30px;">
         <div class="container">
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 50px; margin-bottom: 60px;">
                 <div>
-                    <a href="index.html" class="logo-container" style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
-                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <a href="#home" class="logo-container" style="margin-bottom: 25px; display: inline-flex;">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width: 50px; height: 50px;">
                             <defs>
                                 <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                                     <stop offset="0%" style="stop-color:#1a4bc2;stop-opacity:1" />
@@ -617,35 +617,54 @@
                         </svg>
                         <div class="logo-text-container">
                             <div class="logo-main-text" style="color: white;">KEY<span class="logo-accent">KRAFT</span></div>
-                            <div class="logo-tagline">UNLOCKING DIGITAL POTENTIAL</div>
+                            <div class="logo-tagline" style="color: rgba(255,255,255,0.7);">UNLOCKING DIGITAL POTENTIAL</div>
                         </div>
                     </a>
-                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-top: 20px;">Delivering comprehensive, technology-driven solutions that empower businesses to streamline operations and excel in the digital landscape.</p>
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 25px;">
+                        Empowering 427+ businesses with 12 specialized IT services and 24/7 support across 6 industry verticals.
+                    </p>
+                    <div style="display: flex; gap: 20px;">
+                        <a href="#" style="color: white; font-size: 1.2rem; transition: var(--transition);"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" style="color: white; font-size: 1.2rem; transition: var(--transition);"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="color: white; font-size: 1.2rem; transition: var(--transition);"><i class="fab fa-facebook"></i></a>
+                    </div>
                 </div>
+                
                 <div>
-                    <h3 style="color: white; margin-bottom: 25px; font-size: 1.3rem;">Quick Links</h3>
+                    <h3 style="color: white; font-size: 1.3rem; margin-bottom: 25px; position: relative; padding-bottom: 15px;">
+                        Quick Links
+                    </h3>
                     <ul style="list-style: none;">
-                        <li style="margin-bottom: 12px;"><a href="index.html" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Home</a></li>
-                        <li style="margin-bottom: 12px;"><a href="services.html" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Services</a></li>
-                        <li style="margin-bottom: 12px;"><a href="index.html#segments" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Industries</a></li>
-                        <li style="margin-bottom: 12px;"><a href="index.html#vision" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Vision</a></li>
-                        <li style="margin-bottom: 12px;"><a href="index.html#contact" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Contact</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#home" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Home</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#services" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Services</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#segments" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Industries</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#vision" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Vision</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#solutions" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Solutions</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#contact" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: var(--transition);">Contact</a></li>
                     </ul>
                 </div>
+                
                 <div>
-                    <h3 style="color: white; margin-bottom: 25px; font-size: 1.3rem;">Contact Us</h3>
+                    <h3 style="color: white; font-size: 1.3rem; margin-bottom: 25px; position: relative; padding-bottom: 15px;">
+                        Contact Info
+                    </h3>
                     <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <div style="display: flex; align-items: flex-start; gap: 15px; color: rgba(255,255,255,0.7);">
+                            <i class="fas fa-map-marker-alt" style="color: var(--secondary); margin-top: 5px;"></i>
+                            <div>5900 Balcones Drive STE 100, Austin, TX, United States, Texas</div>
+                        </div>
                         <div style="display: flex; align-items: center; gap: 15px; color: rgba(255,255,255,0.7);">
                             <i class="fas fa-phone" style="color: var(--secondary);"></i>
                             <div><a class="contact-link" href="tel:+447403190687">+44 7403 190687</a></div>
                         </div>
                         <div style="display: flex; align-items: center; gap: 15px; color: rgba(255,255,255,0.7);">
                             <i class="fas fa-envelope" style="color: var(--secondary);"></i>
-                            <div><a class="contact-link" href="mailto:keykraft0@gmail.com">keykraft0@gmail.com</a></div>
+                            <div><a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=keykraft0@gmail.com" target="_blank">Info@Keykraft.com</a></div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div style="text-align: center; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6); font-size: 0.9rem;">
                 <p>&copy; 2023 Key Kraft IT Services. All rights reserved. | <a href="#" style="color: var(--secondary); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: var(--secondary); text-decoration: none;">Terms of Service</a></p>
                 <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.5;">Serving 427+ clients with 12 specialized services across 6 industries</p>
