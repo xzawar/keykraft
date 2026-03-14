@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Key Kraft IT Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="mainHeader">
+        <div class="container header-container">
+            <a href="index.html" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#1a4bc2;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00c9a7;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="20" y="20" width="60" height="60" rx="12" fill="url(#logoGradient)" />
+                    <path d="M35,35 L65,35 L65,45 L55,45 L55,65 L45,65 L45,55 L35,55 Z" fill="white" />
+                    <circle cx="50" cy="50" r="8" fill="none" stroke="white" stroke-width="3" />
+                    <path d="M30,30 L30,25 L25,25 L25,30 Z" fill="#00c9a7" />
+                    <path d="M70,30 L75,30 L75,25 L70,25 Z" fill="#00c9a7" />
+                    <path d="M30,70 L25,70 L25,75 L30,75 Z" fill="#00c9a7" />
+                    <path d="M70,70 L70,75 L75,75 L75,70 Z" fill="#00c9a7" />
+                </svg>
+                <div class="logo-text-container">
+                    <div class="logo-main-text">KEY<span class="logo-accent">KRAFT</span></div>
+                    <div class="logo-tagline">UNLOCKING DIGITAL POTENTIAL</div>
+                </div>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active-nav">Services</a></li>
+                    <li><a href="index.html#segments">Industries</a></li>
+                    <li><a href="index.html#vision">Vision</a></li>
+                    <li><a href="index.html#solutions">Solutions</a></li>
+                    <li><a href="index.html#contact" class="btn" style="padding: 12px 25px; font-size: 0.9rem;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero / Banner -->
+    <section class="page-hero">
+        <div class="floating-elements" id="floatingElements"></div>
+        <div class="container">
+            <div class="page-hero-badge pulse-animation">
+                <i class="fas fa-cogs"></i> Comprehensive IT Solutions
+            </div>
+            <h1 class="animate__animated animate__fadeInUp">
+                Our <span>Services</span>
+            </h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                Explore our full suite of technology-driven services — from e-commerce and healthcare IT to cybersecurity, digital marketing, and beyond.
+            </p>
+            <div class="page-hero-btns animate__animated animate__fadeInUp animate__delay-2s">
+                <a href="#core-services" class="btn glow-animation">
+                    <i class="fas fa-rocket"></i> Explore Services
+                </a>
+                <a href="index.html#contact" class="btn btn-secondary">
+                    <i class="fas fa-calendar-check"></i> Get a Quote
+                </a>
+            </div>
+        </div>
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-bar">
+            <div class="container">
+                <span><a href="index.html">Home</a></span>
+                <i class="fas fa-chevron-right"></i>
+                <span class="current">Services</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories Quick Nav -->
+    <section class="service-nav-section">
+        <div class="container">
+            <div class="service-nav-grid">
+                <a href="#ecommerce" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <span>E-commerce</span>
+                </a>
+                <a href="#healthcare" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-heartbeat"></i></div>
+                    <span>Healthcare IT</span>
+                </a>
+                <a href="#webdev" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-code"></i></div>
+                    <span>Web & SEO</span>
+                </a>
+                <a href="#support" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-headset"></i></div>
+                    <span>Customer Support</span>
+                </a>
+                <a href="#marketing" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-chart-line"></i></div>
+                    <span>Digital Marketing</span>
+                </a>
+                <a href="#cybersecurity" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-shield-alt"></i></div>
+                    <span>Cybersecurity</span>
+                </a>
+                <a href="#cloud" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-cloud"></i></div>
+                    <span>Cloud Solutions</span>
+                </a>
+                <a href="#data" class="service-nav-item">
+                    <div class="service-nav-icon"><i class="fas fa-database"></i></div>
+                    <span>Data Analytics</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section -->
+    <section id="core-services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Core IT Services</h2>
+                <p>End-to-end technology solutions designed to transform your business operations and drive digital growth.</p>
+            </div>
+
+            <!-- E-commerce Solutions -->
+            <div class="service-detail-block" id="ecommerce">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>E-commerce Solutions</h3>
+                        <p>Complete marketplace management and digital commerce services to accelerate your online sales and revenue growth.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-store"></i></div>
+                            <div class="service-content">
+                                <h3>Amazon Marketplace</h3>
+                                <p>Full-service Amazon account management — listings, advertising, inventory, and performance optimization.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Amazon Seller Central Management</li>
+                                    <li><i class="fas fa-check"></i> Product Listing Optimization & A+ Content</li>
+                                    <li><i class="fas fa-check"></i> Amazon PPC Campaign Management</li>
+                                    <li><i class="fas fa-check"></i> FBA Setup & Inventory Management</li>
+                                    <li><i class="fas fa-check"></i> Brand Registry & Protection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-shopping-bag"></i></div>
+                            <div class="service-content">
+                                <h3>Shopify & WooCommerce</h3>
+                                <p>Custom storefront development and optimization for high-converting online shopping experiences.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Shopify Store Development & Themes</li>
+                                    <li><i class="fas fa-check"></i> WooCommerce Setup & Customization</li>
+                                    <li><i class="fas fa-check"></i> Payment Gateway Integration</li>
+                                    <li><i class="fas fa-check"></i> Conversion Rate Optimization</li>
+                                    <li><i class="fas fa-check"></i> E-commerce SEO & PPC Campaigns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-boxes"></i></div>
+                            <div class="service-content">
+                                <h3>Inventory & Operations</h3>
+                                <p>Streamline supply chain and operational workflows to eliminate bottlenecks and reduce costs.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Inventory Management Systems</li>
+                                    <li><i class="fas fa-check"></i> Multi-Channel Selling Integration</li>
+                                    <li><i class="fas fa-check"></i> Order Fulfillment Automation</li>
+                                    <li><i class="fas fa-check"></i> Returns Management</li>
+                                    <li><i class="fas fa-check"></i> Supplier & Vendor Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Healthcare IT Solutions -->
+            <div class="service-detail-block alt-block" id="healthcare">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon green-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Healthcare IT Solutions</h3>
+                        <p>HIPAA-compliant medical technology services that optimize revenue cycles and modernize care delivery for healthcare providers.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-file-medical-alt"></i></div>
+                            <div class="service-content">
+                                <h3>Medical Billing & Coding</h3>
+                                <p>Accurate, compliant medical billing to maximize reimbursements and reduce claim denials.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> ICD-10 & CPT Coding Services</li>
+                                    <li><i class="fas fa-check"></i> Claims Submission & Follow-up</li>
+                                    <li><i class="fas fa-check"></i> Denial Management & Appeals</li>
+                                    <li><i class="fas fa-check"></i> Patient Statement Processing</li>
+                                    <li><i class="fas fa-check"></i> Insurance Verification</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
+                            <div class="service-content">
+                                <h3>Revenue Cycle Management</h3>
+                                <p>End-to-end RCM services to maximize collections and reduce operational costs across your practice.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> RCM Strategy & Implementation</li>
+                                    <li><i class="fas fa-check"></i> KPI Dashboards & Reporting</li>
+                                    <li><i class="fas fa-check"></i> Collections rate optimization (3–8%)</li>
+                                    <li><i class="fas fa-check"></i> Credentialing Services</li>
+                                    <li><i class="fas fa-check"></i> Payer Contract Negotiation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-laptop-medical"></i></div>
+                            <div class="service-content">
+                                <h3>EHR & Telemedicine</h3>
+                                <p>Modern technology platforms to digitize patient records and enable virtual care delivery.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Electronic Health Records (EHR)</li>
+                                    <li><i class="fas fa-check"></i> Practice Management Software</li>
+                                    <li><i class="fas fa-check"></i> HIPAA Compliance Solutions</li>
+                                    <li><i class="fas fa-check"></i> Telemedicine Platform Integration</li>
+                                    <li><i class="fas fa-check"></i> Patient Portal Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development & SEO -->
+            <div class="service-detail-block" id="webdev">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Web Development & SEO</h3>
+                        <p>Custom, high-performance websites with strategic SEO to grow your digital presence and drive qualified organic traffic.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="service-content">
+                                <h3>Custom Web Development</h3>
+                                <p>Tailor-made web applications built for performance, scalability, and exceptional user experience.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Custom Web Application Development</li>
+                                    <li><i class="fas fa-check"></i> Responsive & Mobile-First Design</li>
+                                    <li><i class="fas fa-check"></i> CMS Implementation (WordPress, etc.)</li>
+                                    <li><i class="fas fa-check"></i> API Integration & Development</li>
+                                    <li><i class="fas fa-check"></i> Website Maintenance & Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-search"></i></div>
+                            <div class="service-content">
+                                <h3>SEO & Content Strategy</h3>
+                                <p>Data-driven SEO and content marketing to rank higher, attract more visitors, and convert them.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Technical SEO Audits & Fixes</li>
+                                    <li><i class="fas fa-check"></i> Keyword Research & Strategy</li>
+                                    <li><i class="fas fa-check"></i> On-Page & Off-Page Optimization</li>
+                                    <li><i class="fas fa-check"></i> Content Creation & Marketing</li>
+                                    <li><i class="fas fa-check"></i> Local SEO Campaigns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="service-content">
+                                <h3>UI/UX & Performance</h3>
+                                <p>Beautiful, intuitive interfaces and blazing-fast performance that keep users engaged.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> UI/UX Design & Prototyping</li>
+                                    <li><i class="fas fa-check"></i> Core Web Vitals Optimization</li>
+                                    <li><i class="fas fa-check"></i> Accessibility (WCAG) Compliance</li>
+                                    <li><i class="fas fa-check"></i> Progressive Web App (PWA) Development</li>
+                                    <li><i class="fas fa-check"></i> Landing Page Design & A/B Testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Mid CTA Banner -->
+    <section class="cta-banner">
+        <div class="floating-elements" id="floatingElementsCTA"></div>
+        <div class="container">
+            <div class="cta-banner-inner">
+                <div class="cta-banner-text">
+                    <h2>Not sure which service is right for you?</h2>
+                    <p>Our experts will analyze your business needs and recommend the perfect solution package.</p>
+                </div>
+                <div class="cta-banner-btns">
+                    <a href="index.html#contact" class="btn glow-animation">
+                        <i class="fas fa-comments"></i> Free Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section id="additional-services" class="vision-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Specialized Services</h2>
+                <p>Beyond our core offerings, we deliver these additional specialized services to meet your unique business needs.</p>
+            </div>
+
+            <!-- Customer Support -->
+            <div class="service-detail-block white-block" id="support">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Customer Support Solutions</h3>
+                        <p>24/7 omnichannel customer support and helpdesk services to ensure business continuity and outstanding customer experiences.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-phone-volume"></i></div>
+                            <div class="service-content">
+                                <h3>Multichannel Support</h3>
+                                <p>Round-the-clock customer support across every channel — voice, email, live chat, and social.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> 24/7 Inbound & Outbound Call Center</li>
+                                    <li><i class="fas fa-check"></i> Email & Ticket Support</li>
+                                    <li><i class="fas fa-check"></i> Live Chat & AI Chatbot Solutions</li>
+                                    <li><i class="fas fa-check"></i> Social Media Customer Support</li>
+                                    <li><i class="fas fa-check"></i> Customer Experience Analytics</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-tools"></i></div>
+                            <div class="service-content">
+                                <h3>Helpdesk & Field Service</h3>
+                                <p>Powerful ticketing systems and dispatch management to keep operations running smoothly.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Helpdesk & Ticketing Systems</li>
+                                    <li><i class="fas fa-check"></i> Dispatch & Field Service Management</li>
+                                    <li><i class="fas fa-check"></i> CRM Integration & Management</li>
+                                    <li><i class="fas fa-check"></i> SLA Monitoring & Reporting</li>
+                                    <li><i class="fas fa-check"></i> Knowledge Base Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital Marketing -->
+            <div class="service-detail-block white-block" id="marketing">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon green-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Digital Marketing Services</h3>
+                        <p>Data-driven marketing strategies that increase brand visibility, generate qualified leads, and drive measurable revenue growth.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-ad"></i></div>
+                            <div class="service-content">
+                                <h3>Paid Advertising</h3>
+                                <p>Strategic PPC and paid social campaigns engineered for maximum ROI and lead generation.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Google Ads & Search Engine Marketing</li>
+                                    <li><i class="fas fa-check"></i> Facebook & Instagram Advertising</li>
+                                    <li><i class="fas fa-check"></i> LinkedIn B2B Campaigns</li>
+                                    <li><i class="fas fa-check"></i> Retargeting & Remarketing</li>
+                                    <li><i class="fas fa-check"></i> Conversion Rate Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-share-alt"></i></div>
+                            <div class="service-content">
+                                <h3>Social Media & Content</h3>
+                                <p>Compelling content and community management that builds brand loyalty and drives engagement.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Social Media Strategy & Management</li>
+                                    <li><i class="fas fa-check"></i> Content Creation & Marketing</li>
+                                    <li><i class="fas fa-check"></i> Email Marketing Campaigns</li>
+                                    <li><i class="fas fa-check"></i> Influencer Marketing</li>
+                                    <li><i class="fas fa-check"></i> Analytics & Performance Tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cybersecurity -->
+            <div class="service-detail-block white-block" id="cybersecurity">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Cybersecurity & Compliance</h3>
+                        <p>Comprehensive security services to protect your digital assets, ensure regulatory compliance, and maintain business continuity.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-user-shield"></i></div>
+                            <div class="service-content">
+                                <h3>Security Assessments</h3>
+                                <p>Identify vulnerabilities before attackers do with comprehensive penetration testing and risk analysis.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Vulnerability Assessments</li>
+                                    <li><i class="fas fa-check"></i> Penetration Testing</li>
+                                    <li><i class="fas fa-check"></i> Network & Cloud Security Audits</li>
+                                    <li><i class="fas fa-check"></i> Security Architecture Review</li>
+                                    <li><i class="fas fa-check"></i> Dark Web Monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                            <div class="service-content">
+                                <h3>Compliance & MSSP</h3>
+                                <p>Meet every regulatory standard and protect your organization with managed security operations.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> HIPAA / GDPR / PCI-DSS Compliance</li>
+                                    <li><i class="fas fa-check"></i> Managed Security Services (MSSP)</li>
+                                    <li><i class="fas fa-check"></i> Incident Response & Recovery</li>
+                                    <li><i class="fas fa-check"></i> Security Awareness Training</li>
+                                    <li><i class="fas fa-check"></i> Data Loss Prevention (DLP)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud & Data -->
+            <div class="service-detail-block white-block" id="cloud">
+                <div class="service-detail-header">
+                    <div class="service-detail-icon green-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="service-detail-title">
+                        <h3>Cloud Solutions & Data Analytics</h3>
+                        <p>Scalable cloud infrastructure and intelligent data analytics to power modern, agile business operations.</p>
+                    </div>
+                </div>
+                <div class="service-detail-body">
+                    <div class="services-grid">
+                        <div class="service-card" id="data">
+                            <div class="service-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                            <div class="service-content">
+                                <h3>Cloud Infrastructure</h3>
+                                <p>Seamless cloud migration, management, and optimization on the world's leading platforms.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> AWS / Azure / GCP Migration</li>
+                                    <li><i class="fas fa-check"></i> Cloud Infrastructure Management</li>
+                                    <li><i class="fas fa-check"></i> SaaS Implementation & Integration</li>
+                                    <li><i class="fas fa-check"></i> Disaster Recovery Planning</li>
+                                    <li><i class="fas fa-check"></i> DevOps & CI/CD Pipelines</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                            <div class="service-content">
+                                <h3>Data Analytics & BI</h3>
+                                <p>Transform raw data into strategic insights with powerful dashboards and predictive analytics.</p>
+                                <ul class="service-list">
+                                    <li><i class="fas fa-check"></i> Business Intelligence Dashboards</li>
+                                    <li><i class="fas fa-check"></i> Data Warehousing Solutions</li>
+                                    <li><i class="fas fa-check"></i> Predictive & Prescriptive Analytics</li>
+                                    <li><i class="fas fa-check"></i> Big Data Processing</li>
+                                    <li><i class="fas fa-check"></i> Custom Reporting & Automation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="section-title" style="color: white;">
+                <h2 style="color: white;">Why Choose Key Kraft?</h2>
+                <p style="color: rgba(255,255,255,0.8);">What sets our services apart from the rest</p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="12">0</div>
+                    <div class="stat-text">Specialized Services</div>
+                    <div class="stat-description">Comprehensive solutions from dev to support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="427">0</div>
+                    <div class="stat-text">Clients Empowered</div>
+                    <div class="stat-description">Businesses transformed across 6 industries</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="99.2">0<span>%</span></div>
+                    <div class="stat-text">Client Satisfaction</div>
+                    <div class="stat-description">Based on post-service surveys</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="24">0<span>/7</span></div>
+                    <div class="stat-text">Support Coverage</div>
+                    <div class="stat-description">Round-the-clock technical assistance</div>
+                </div>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-layer-group"></i></div>
+                    <h4>Integrated Ecosystem</h4>
+                    <p>Seamless connection between all digital, marketing, and operational services under one roof.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-industry"></i></div>
+                    <h4>Industry Expertise</h4>
+                    <p>Deep domain knowledge in healthcare, e-commerce, and SME markets for specialized outcomes.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+                    <h4>Scalable Solutions</h4>
+                    <p>Flexible packages that grow with you — from startup to enterprise without disruption.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h4>Data-Driven ROI</h4>
+                    <p>Every engagement is measured against clear KPIs to ensure maximum return on investment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ready to <span>Get Started?</span></h2>
+                <p>Contact our team today for a free consultation and discover how Key Kraft can unlock your digital potential.</p>
+            </div>
+            <div style="display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; margin-top: 20px;">
+                <a href="index.html#contact" class="btn glow-animation">
+                    <i class="fas fa-paper-plane"></i> Start a Project
+                </a>
+                <a href="tel:+447403190687" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Call Us Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: linear-gradient(135deg, var(--dark) 0%, #1a2236 100%); color: white; padding: 80px 0 40px;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 50px; margin-bottom: 60px;">
+                <div>
+                    <a href="index.html" class="logo-container" style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#1a4bc2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00c9a7;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="20" y="20" width="60" height="60" rx="12" fill="url(#footerLogoGradient)" />
+                            <path d="M35,35 L65,35 L65,45 L55,45 L55,65 L45,65 L45,55 L35,55 Z" fill="white" />
+                            <circle cx="50" cy="50" r="8" fill="none" stroke="white" stroke-width="3" />
+                        </svg>
+                        <div class="logo-text-container">
+                            <div class="logo-main-text" style="color: white;">KEY<span class="logo-accent">KRAFT</span></div>
+                            <div class="logo-tagline">UNLOCKING DIGITAL POTENTIAL</div>
+                        </div>
+                    </a>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-top: 20px;">Delivering comprehensive, technology-driven solutions that empower businesses to streamline operations and excel in the digital landscape.</p>
+                </div>
+                <div>
+                    <h3 style="color: white; margin-bottom: 25px; font-size: 1.3rem;">Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 12px;"><a href="index.html" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Home</a></li>
+                        <li style="margin-bottom: 12px;"><a href="services.html" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Services</a></li>
+                        <li style="margin-bottom: 12px;"><a href="index.html#segments" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Industries</a></li>
+                        <li style="margin-bottom: 12px;"><a href="index.html#vision" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Vision</a></li>
+                        <li style="margin-bottom: 12px;"><a href="index.html#contact" class="contact-link"><i class="fas fa-chevron-right" style="color: var(--secondary); margin-right: 8px; font-size: 0.8rem;"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="color: white; margin-bottom: 25px; font-size: 1.3rem;">Contact Us</h3>
+                    <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <div style="display: flex; align-items: center; gap: 15px; color: rgba(255,255,255,0.7);">
+                            <i class="fas fa-phone" style="color: var(--secondary);"></i>
+                            <div><a class="contact-link" href="tel:+447403190687">+44 7403 190687</a></div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 15px; color: rgba(255,255,255,0.7);">
+                            <i class="fas fa-envelope" style="color: var(--secondary);"></i>
+                            <div><a class="contact-link" href="mailto:keykraft0@gmail.com">keykraft0@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.6); font-size: 0.9rem;">
+                <p>&copy; 2023 Key Kraft IT Services. All rights reserved. | <a href="#" style="color: var(--secondary); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: var(--secondary); text-decoration: none;">Terms of Service</a></p>
+                <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.5;">Serving 427+ clients with 12 specialized services across 6 industries</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileMenuBtn.addEventListener('click', function () {
+            navMenu.classList.toggle('active');
+            const icon = this.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+            if (navMenu.classList.contains('active')) {
+                const menuItems = navMenu.querySelectorAll('li');
+                menuItems.forEach((item, index) => {
+                    item.style.animationDelay = `${index * 0.1}s`;
+                    item.style.animation = `fadeInUp 0.5s ease forwards`;
+                });
+            }
+        });
+
+        document.querySelectorAll('#navMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('mainHeader');
+        window.addEventListener('scroll', function () {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Animate service cards on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.service-card, .stat-item, .why-card, .service-nav-item, .service-detail-block');
+            elements.forEach(el => {
+                if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+                    el.classList.add('animate');
+                }
+            });
+        }
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+
+        // Counter animation for stats
+        function animateStats() {
+            document.querySelectorAll('.stat-number[data-count]').forEach(stat => {
+                const target = parseFloat(stat.getAttribute('data-count'));
+                const duration = 2500;
+                const increment = target / (duration / 16);
+                let current = 0;
+                const suffix = stat.innerHTML.replace(/[\d.]/g, '');
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        stat.innerHTML = (target % 1 === 0 ? Math.floor(target) : target.toFixed(1)) + suffix;
+                        clearInterval(timer);
+                    } else {
+                        stat.innerHTML = (target % 1 === 0 ? Math.floor(current) : current.toFixed(1)) + suffix;
+                    }
+                }, 16);
+            });
+        }
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateStats();
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        const statsSection = document.querySelector('.stats-section');
+        if (statsSection) statsObserver.observe(statsSection);
+
+        // Floating elements
+        function createFloatingElements(containerId) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            container.innerHTML = '';
+            for (let i = 0; i < 12; i++) {
+                const el = document.createElement('div');
+                el.className = 'floating-element';
+                const size = Math.random() * 60 + 20;
+                el.style.cssText = `width:${size}px;height:${size}px;left:${Math.random()*100}%;top:${Math.random()*100}%;opacity:${Math.random()*0.1+0.04};animation:float ${Math.random()*20+10}s ease-in-out ${Math.random()*5}s infinite;`;
+                container.appendChild(el);
+            }
+        }
+        createFloatingElements('floatingElements');
+        createFloatingElements('floatingElementsCTA');
+
+        // Page load fade-in
+        window.addEventListener('load', function () {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.8s ease';
+            setTimeout(() => { document.body.style.opacity = '1'; }, 100);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetEl = document.querySelector(targetId);
+                if (targetEl) {
+                    e.preventDefault();
+                    window.scrollTo({ top: targetEl.offsetTop - 100, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
